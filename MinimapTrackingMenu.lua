@@ -269,7 +269,7 @@ function AddOn:OpenMenu(frame, left)
 	if frame then
 		anchor = frame
 	else
-		anchor = "tracking"
+		anchor = tracking
 	end
 	if left then
 		EasyMenu(VisibleButtons, AddOn.Menu, anchor, 0, 0, "MENU", 2)
